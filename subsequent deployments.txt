@@ -1,0 +1,8 @@
+open heroku app in browser --- heroku open.
+------------------------------------------
+subsequent commits/deployments:
+
+git status
+git add .
+git commit -m "finished auth flow"
+git push heroku master
