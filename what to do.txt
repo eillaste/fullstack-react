@@ -3,3 +3,26 @@ node index.js
 /// after installing nodemon & adding script to package.json
 
 npm run dev
+
+// but after combined servers, express server runs with:
+
+npm run server
+
+// combined (with concurrently) server runs with 
+
+npm run dev
+
+todo:
+
+watch
+https://egghead.io/courses/getting-started-with-redux
+https://egghead.io/courses/building-react-applications-with-idiomatic-redux
+
+
+Of react-router:
+A route is a pairing between the address appearing on the address bar and the components that should be appearing on the screen at any given time.
+
+import { BrowserRouter, Route } from 'react-router-dom';
+
+the BrowserRouter is the brains of the router and choose the set of components for any URL of the app
+the Route object is a react component to set up a rule between a certain a route a user might visit and the set of components visible on the screen
